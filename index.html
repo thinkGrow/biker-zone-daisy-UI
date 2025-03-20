@@ -67,7 +67,7 @@
     <main class="md:container mx-auto">
 
         <!-- Caraousel Section -->
-        <div class="carousel w-full">
+        <section class="carousel w-full">
             <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full lg:h-[550px] ">
                 <div class="flex flex-col lg:flex-row justify-between p-12 lg:p-24 gap-10 navbar bg-[#E76F51]/10">
@@ -120,7 +120,7 @@
                         <h1 class="text-6xl font-bold">Ride-on R15 V4 <br> with Smile</h1>
                         <p class="text-gray-500 w-[100%]">Amet minim mollit non deserunt ullamco <br>
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
-                        <div class="">
+                        <div>
                             <a class="btn bg-[#E76F51] text-white">Purchase</a>
                         </div>
                     </div>
@@ -135,10 +135,11 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
             </div>
-        </div>
+        </section>
 
         <!-- Featured Bike Section -->
-        <div class="my-[70px] ">
+        <section class="mt-[120px] ">
+
 
             <!-- Text -->
             <div class="flex flex-col items-center gap-4">
@@ -159,7 +160,74 @@
                     class="grayscale-[0.75] hover:grayscale-0 hover:scale-105 transition-all duration-300 ease-in-out">
             </div>
 
-        </div>
+        </section>
+
+        <!-- Latest Bike Section -->
+        <section class="my-[120px] space-y-[50px]">
+
+            <div class="flex justify-center">
+                <h1 class="font-bold text-5xl">Latest News</h1>
+            </div>
+
+            <!-- cards -->
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:mx-auto ">
+                <!-- card 1 -->
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest1.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                        <h2 class="card-title font-semibold text-2xl">Ducati XDIAVEL S-73</h2>
+                        <p class="text-gray-500 w-[100%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                        <div class="card-actions">
+                            <div>
+                                <button class="btn bg-[#E76F51] text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 2 -->
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest2.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                        <h2 class="card-title font-semibold text-2xl">Motorcycles & Scooters</h2>
+                        <p class="text-gray-500 w-[100%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                        <div class="card-actions">
+                            <div>
+                                <button class="btn bg-[#E76F51] text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 3 -->
+                <div class="card bg-base-100 w-96 shadow-sm">
+                    <figure>
+                        <img src="images/others/latest3.png" alt="" />
+                    </figure>
+                    <div class="card-body space-y-5">
+                        <h2 class="card-title font-semibold text-2xl">2021 Honda CBR500R</h2>
+                        <p class="text-gray-500 w-[100%]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+
+                        <div class="card-actions">
+                            <div>
+                                <button class="btn bg-[#E76F51] text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
     </main>
 </body>
 
