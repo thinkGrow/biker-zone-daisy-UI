@@ -172,7 +172,9 @@
             <!-- cards -->
             <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-12">
                 <!-- card 1 -->
-                <div class="card bg-base-100 shadow-sm">
+                <!--  -->
+                <div
+                    class="card bg-base-100 shadow-sm hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/latest1.png" class="w-full" alt="" />
                     </figure>
@@ -192,7 +194,8 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="card bg-base-100 shadow-sm">
+                <div
+                    class="card bg-base-100 shadow-sm hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/latest2.png" class="w-full" alt="" />
                     </figure>
@@ -212,7 +215,8 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card bg-base-100 shadow-sm">
+                <div
+                    class="card bg-base-100 shadow-sm hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/latest3.png" class="w-full" alt="" />
                     </figure>
@@ -245,7 +249,7 @@
             <!-- cards -->
             <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between gap-12">
                 <!-- card 1 -->
-                <div class="card bg-base-100 shadow-sm items-center">
+                <div class="card bg-base-100 shadow-sm items-center hover:bg-[#E76F51]/50 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/user-1.png" class="w-[149px] h-[149px]" alt="" />
                     </figure>
@@ -278,7 +282,7 @@
                 </div>
 
                 <!-- card 2 -->
-                <div class="card bg-base-100 shadow-sm items-center">
+                <div class="card bg-base-100 shadow-sm items-center hover:bg-[#E76F51]/50 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/user-2.png" class="w-[149px] h-[149px]" alt="" />
                     </figure>
@@ -311,7 +315,7 @@
                 </div>
 
                 <!-- card 3 -->
-                <div class="card bg-base-100 shadow-sm items-center">
+                <div class="card bg-base-100 shadow-sm items-center hover:bg-[#E76F51]/50 hover:scale-105 transition-all duration-300 ease-in-out">
                     <figure class="card-body">
                         <img src="images/others/user-3.png" class="w-[149px] h-[149px]" alt="" />
                     </figure>
@@ -417,27 +421,22 @@
     </main>
 
     <footer class="bg-neutral">
-        <div class="footer sm:footer-horizontal text-neutral-content p-10 md:container mx-auto mt-[120px]">
+        <div class="footer text-neutral-content p-10 md:container mx-auto mt-[120px]">
             <div class="flex justify-between w-full">
-                <aside>
+                <div>
                     <a href="">Download Now</a>
                     <a href="">License</a>
-                    <a href="">About</a>
+                    <a href="">About</a> <br> <br>
                     <a href="">Features</a>
                     <a href="">Pricing</a>
                     <a href="">Careers</a>
                     <a href="">Help</a>
                     <a href="">Privacy Policy</a>
-                    <p>
-                        ACME Industries Ltd.
-                        <br />
-                        Providing reliable tech since 1992
-                    </p>
-                </aside>
-                <nav>
+                </div>
+                <div class="items-end">
                     <h6 class="footer-title">Social</h6>
-                    <div class="grid grid-flow-col gap-4">
-                        <a>
+                    <div class="grid grid-flow-col gap-8">
+                        <a class="hover:text-gray-500 hover:scale-150 transition-all duration-300 ease-in-out">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 class="fill-current">
                                 <path
@@ -445,7 +444,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a>
+                        <a class="hover:text-gray-500 hover:scale-150 transition-all duration-300 ease-in-out">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 class="fill-current">
                                 <path
@@ -453,7 +452,7 @@
                                 </path>
                             </svg>
                         </a>
-                        <a>
+                        <a class="hover:text-gray-500 hover:scale-150 transition-all duration-300 ease-in-out">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 class="fill-current">
                                 <path
@@ -462,9 +461,16 @@
                             </svg>
                         </a>
                     </div>
-                </nav>
+                </div>
+            </div>
+            <div class="bg-white-100">
+                <p>
+                    &copy 2020 bike. All rights reserved
+                </p>
             </div>
         </div>
+
+
     </footer>
 </body>
 
